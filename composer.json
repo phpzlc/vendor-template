@@ -1,11 +1,11 @@
 {
-    "name": "phpzlc/admin",
-    "description": "后台系统",
+    "name": "phpzlc/{变量}",
+    "description": "{变量}",
     "homepage": "https://phpzlc.com/",
     "license": "MIT",
     "type": "library",
     "keywords": [
-        "phpzlc", "symfony", "admin"
+        "phpzlc", "symfony", "{变量}"
     ],
     "support": {
         "email": "1044295598@qq.com"
@@ -18,11 +18,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "PHPZlc\\Admin\\": [""]
+            "PHPZlc\\{变量}\\": [""]
         }
     },
     "require": {
-        "symfony/framework-bundle": ">=5.4",
-        "phpoffice/phpspreadsheet": "1.18.*"
+        "phpzlc/phpzlc": "2.*"
     }
 }

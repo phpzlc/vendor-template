@@ -1,7 +1,7 @@
-## Admin
+## {变量}
 
-后台内核，为后台业务提供底层策略，写法支持。
+组件介绍
 
 ## 使用文档
 
-[使用文档](https://phpzlc.com/doc/module/admin)
+[使用文档](https://phpzlc.com/doc/module/{变量})
